@@ -23,15 +23,15 @@ There are 30 marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+because it is easier for the computer to process as there are only two modes; on and off
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+10010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+181   -   5=5 B=176
 ```
 ###4 - Here is a function written is **pseudocode**.
 ```
@@ -47,12 +47,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+variable
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+Boolean
 ```
 
 ##Errors
@@ -69,12 +69,12 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+7
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+misuse of a programming function resulting in a program crash
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
@@ -84,13 +84,26 @@ answer here
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+Runtime error
+An error that makes the program crash during its runtime.
+dividing by zero, referencing missing files, calling invalid functions, or not handling certain input correctly.
 ```
 
 ##Algortithms
 ###7 - Write an **algorithm** that if given a list of numbers could find the largest. Try to use [pseudocode](http://filestore2.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-TRB-PSEU.PDF).
 ```
-answer here
+
+A= Current number
+B= Next number
+C= Largest number
+
+
+recieve numbers
+A=C
+If B>C then B=C        #Repeat however many times nessecary
+display C
+
+
 ```
 
 ##Networking
@@ -98,27 +111,27 @@ answer here
 
 **Bus Topology (6 marks)**
 ```
-Describe:
+Describe: Uses a central 'bus' cable with other smaller outgoing wires to send data to each client.
 
-Advantages:
+Advantages: Good for Local area networking as the method is very linear
 
-Disadvantages:
+Disadvantages: There is a high limit on cable length and the number of clients that can be involved
 ```
 
 **Ring Topology (6 marks)**
 ```
-Describe:
+Describe: Sends data between each client system originating from the server in a circular layout
 
-Advantages:
+Advantages: Requires a less powerful server as data is being sent to only the first client system
 
-Disadvantages:
+Disadvantages: Not robust; if a client system breaks the ones after it do the same due to the ring layout
 ```
 
 **Star Topology (6 marks)**
 ```
-Describe:
+Describe: Sends data to clients from the server directly in individual pathways
 
-Advantages:
+Advantages: Minimal reliance on the client; if one system malfunctions it wont result in others doing so
 
-Disadvantages:
+Disadvantages: Requires a more powerful server to handle each client system being sent data
 ```
